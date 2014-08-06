@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Roslyn.Compilers;
-using Roslyn.Compilers.CSharp;
-using Roslyn.Services;
-using Roslyn.Services.CSharp;
 
 namespace FizzBuzz
 {
@@ -13,6 +6,11 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
+            for (var I = 1; I <= 100; I++)
+            {
+                Console.WriteLine(FizzBuzz.GetTheFizz(I));
+            }
+            Console.Read();
         }
     }
 }
