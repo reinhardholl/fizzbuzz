@@ -1,5 +1,5 @@
 CREATE FUNCTION GetTheFizz (@TestValue int)
-RETURNS VARCHAR(10)
+RETURNS VARCHAR(8)
 AS BEGIN
 	IF (@TestValue %3 = 0 and @TestValue %5 = 0)
 	BEGIN
@@ -13,7 +13,7 @@ AS BEGIN
 	BEGIN
 		return 'Buzz'
 	END
-	return cast(@TestValue as varchar(10))
+	return cast(@TestValue as varchar(8))
 END
 GO
 
