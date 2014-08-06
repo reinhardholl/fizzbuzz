@@ -8,5 +8,6 @@ function FizzBuzz() {
 			return "Fizz";
 		if(testValue % 5 === 0)
 			return "Buzz";
+		return testValue;
 	}
 }

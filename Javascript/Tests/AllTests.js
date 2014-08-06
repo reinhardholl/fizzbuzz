@@ -18,3 +18,10 @@ QUnit.test("Given a number divisible by 3 and 5 should return FizzBuzz", functio
 
 	assert.ok(result == "FizzBuzz", "Can FizzBuzz!");
 });
+
+QUnit.test("Given a number not divisible by 3 or 5 should return the value", function(assert) {
+	var fizzBuzz = new FizzBuzz();
+	var result = fizzBuzz.getTheFizz(2);
+
+	assert.ok(result == 2, "Can Value!");
+});

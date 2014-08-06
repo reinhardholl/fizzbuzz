@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>FizzBuzz</title>
+</head>
+<body>
+  <div id="container">
+  </div>
+  <script src="FizzBuzz.js"></script>
+  <script type="text/javascript">
+  	(function() {
+  		var fizzBuzz = new FizzBuzz(),
+  			container = document.getElementById("container");
+
+  		for(i = 1; i <= 100; i++) {
+  			var result = fizzBuzz.getTheFizz(i);
+  			var newParagraph = document.createElement("p");
+  			newParagraph.innerText = result;
+  			container.appendChild(newParagraph);
+  		}
+  	})();
+  </script>
+</body>
+</html>
