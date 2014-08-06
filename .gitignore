@@ -1,0 +1,12 @@
+*.swp
+*.suo
+**/obj/*
+**/bin/*
+*.user
+*.dbmdl
+**/packages/*
+**/sandbox/*
+*.userprefs
+**/logs/*
+*pubxml.user
+*.orig
