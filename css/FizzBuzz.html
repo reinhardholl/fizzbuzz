@@ -4,6 +4,13 @@
   <meta charset="utf-8">
   <title>FizzBuzz</title>
   <style>
+    body {
+      counter-reset: i;  
+    }
+    p:after {
+      content: counter(i);
+      counter-increment: i;
+    }
     p:nth-child(3n):before {
       content: "Fizz";
     }
@@ -13,14 +20,43 @@
   </style>
 </head>
 <body>
-  <div id="container">
-  </div>
-  <script type="text/javascript">
-    for(i = 1; i <= 100; i++) {
-        var newParagraph = document.createElement("p");
-        newParagraph.innerText = i;
-        container.appendChild(newParagraph);
-      }
-  </script>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
 </body>
 </html>
